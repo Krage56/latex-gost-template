@@ -260,6 +260,7 @@
     \RequirePackage[math]{pscyr}
   \fi
 \else
+\usepackage{fontspec}
   % breaks
 %   \RequirePackage{unicode-math}
 
@@ -272,6 +273,7 @@
   \setotherlanguage{english}
   \defaultfontfeatures{Mapping=tex-text}
   \defaultfontfeatures{Ligatures={TeX},Renderer=Basic} 
+  %\setmainfont{Times New Roman}
   \setmainfont[Ligatures={TeX,Historic}]{Times New Roman}
 %   \setmainfont{CMU Serif}
 %   \setsansfont{CMU Sans Serif}
