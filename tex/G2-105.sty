@@ -271,9 +271,11 @@
   \setmainlanguage[spelling=modern]{russian} 
   \setotherlanguage{english}
   \defaultfontfeatures{Mapping=tex-text}
-  \setmainfont{CMU Serif}
-  \setsansfont{CMU Sans Serif}
-  \setmonofont{CMU Typewriter Text}
+  \defaultfontfeatures{Ligatures={TeX},Renderer=Basic} 
+  \setmainfont[Ligatures={TeX,Historic}]{Times New Roman}
+%   \setmainfont{CMU Serif}
+%   \setsansfont{CMU Sans Serif}
+%   \setmonofont{CMU Typewriter Text}
 \fi
 \RequirePackage{flafter}
 
